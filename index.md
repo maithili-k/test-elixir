@@ -471,6 +471,7 @@ please preview your site before committing, and make sure to run
     </div>
   </div>
 </div> {% comment %} End of 'Git' section. {% endcomment %}
+{% endcomment %}
 
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>
