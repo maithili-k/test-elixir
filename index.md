@@ -125,7 +125,6 @@ Display the contact email address set in the configuration file.
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>Before</td> <td><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop survey</a> </td> </tr>
       <tr> <td>13:00</td>  <td>Introduction to Spider</td> </tr>
       <tr> <td>13:30</td>  <td>Login to Spider (ssh key troubleshooting)</td> </tr>
       <tr> <td>14:00</td>  <td>Demo of data manager and software manager role</td> </tr>
