@@ -49,7 +49,7 @@ AUDIENCE
 
 <p id="who">
   <strong>Who:</strong>
-  Anyone who wants to start processing large data volumes (tens to hundreds of terabytes or even more). 
+  Anyone who wants to start processing large data volumes (tens to hundreds of terabytes or even more)
 </p>
 
 {% if page.carpentry == "dc" %}
@@ -69,7 +69,7 @@ LOCATION
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>
 </p>
 {% endif %}
 
@@ -80,7 +80,7 @@ DATE
 {% if page.humandate %}
 <p id="when">
   <strong>When:</strong>
-  {{page.humandate}}.
+  {{page.humandate}}
   {% include workshop_calendar.html %}
 </p>
 {% endif %}
