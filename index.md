@@ -37,4 +37,87 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
+<h2 id="general">General Information</h2>
+
+Vastly increasing data volumes and data complexity imply that researchers require novel solutions to large scale cluster computing. This workshop aims to provide an introduction and
+hands-on experience with our new solution to this problem: "Spider - a new and versatile platform for high-throughput data processing".
+The objective of the workshop is to distinguish the different functionalities of the Spider platform, to provide information on applying for access, and to give participants hands-on experience with basic job processing, software distribution and portability, using internal and external storage systems, and how to collaborate on data analysis within a project. Participants will acquire first hand experience with the flexibility, interactivity and interoperability offered by the Spider platform.
+
+{% comment %}
+AUDIENCE
+{% endcomment %}
+
+<p id="who">
+  <strong>Who:</strong>
+  Anyone who wants to start processing large data volumes (tens to hundreds of terabytes or even more). 
+</p>
+
+{% if page.carpentry == "dc" %}
+{% include dc/who.html %}
+{% elsif page.carpentry == "lc" %}
+{% include lc/who.html %}
+{% endif %}
+
+{% comment %}
+LOCATION
+{% endcomment %}
+
+{% if page.latlng %}
+<p id="where">
+  <strong>Where:</strong>
+  {{page.address}}.
+  Get directions with
+  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
+  or
+  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+</p>
+{% endif %}
+
+{% comment %}
+DATE
+{% endcomment %}
+
+{% if page.humandate %}
+<p id="when">
+  <strong>When:</strong>
+  {{page.humandate}}.
+  {% include workshop_calendar.html %}
+</p>
+{% endif %}
+
+{% comment %}
+SPECIAL REQUIREMENTS
+
+Modify the block below if there are any special requirements.
+{% endcomment %}
+<p id="requirements">
+  <strong>Requirements:</strong> Participants must bring a laptop with a
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.). Basic knowledge of UNIX commandline, bash scripting and cluster computing is expected.
+
+</p>
+
+{% comment %}
+CONTACT EMAIL ADDRESS
+
+Display the contact email address set in the configuration file.
+{% endcomment %}
+<p id="contact">
+  <strong>Contact</strong>:
+  Please email
+  {% if page.email %}
+  {% for email in page.email %}
+  {% if forloop.last and page.email.size > 1 %}
+  or
+  {% else %}
+  {% unless forloop.first %}
+  ,
+  {% endunless %}
+  {% endif %}
+  <a href='mailto:{{email}}'>{{email}}</a>
+  {% endfor %}
+  {% else %}
+  to-be-announced
+  {% endif %}
+  for more information.
+</p>
 
