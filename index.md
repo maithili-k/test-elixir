@@ -121,6 +121,8 @@ Display the contact email address set in the configuration file.
   for more information.
 </p>
 
+<h2 id="schedule">Schedule</h2>
+
 <div class="row">
   <div class="col-md-6">
     <table class="table table-striped">
