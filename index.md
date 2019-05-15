@@ -34,7 +34,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 
 {% comment %}
 For a workshop please delete the following block
-{% endcomment %}
 <div class="alert alert-danger">
 This is the workshop template. Delete these lines and use it to customize your
 own website. If you are running a self-organized workshop or have not put in a
@@ -43,6 +42,7 @@ workshop request yet, please also fill in
 about your workshop and our administrator may contact you if we need any extra
 information.
 </div>
+{% endcomment %}
 
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
@@ -140,7 +140,7 @@ Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. Knowledge of basic UNIX commandline, bash scripting and cluster computing is expected.
 </p>
 
 {% comment%}
@@ -156,7 +156,7 @@ ACCESSIBILITY
 
 Modify the block below if there are any barriers to accessibility or
 special instructions.
-{% endcomment %}
+
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
   accessible to everybody.
@@ -174,6 +174,7 @@ special instructions.
   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
+{% endcomment %}
 
 {% comment %}
 CONTACT EMAIL ADDRESS
