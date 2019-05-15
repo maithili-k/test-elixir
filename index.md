@@ -123,7 +123,6 @@ Display the contact email address set in the configuration file.
 
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
     <table class="table table-striped">
       <tr> <td>13:00</td>  <td>Introduction to Spider</td> </tr>
       <tr> <td>13:30</td>  <td>Login to Spider (ssh key troubleshooting)</td> </tr>
