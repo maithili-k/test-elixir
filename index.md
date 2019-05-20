@@ -140,20 +140,6 @@ Display the contact email address set in the configuration file.
   {% include academy/schedule.html %}
 {% endif %}
 
-<h2 id="schedule">Schedule</h2>
 
-<div class="row">
-  <div class="col-md-6">
-    <table class="table table-striped">
-      <tr> <td>13:00</td>  <td>Introduction to Spider</td> </tr>
-      <tr> <td>13:30</td>  <td>Login to Spider (ssh key troubleshooting)</td> </tr>
-      <tr> <td>14:00</td>  <td>Demo of data manager and software manager role</td> </tr>
-      <tr> <td>15:00</td>  <td>Coffee</td> </tr>
-      <tr> <td>15:15</td>  <td>Submitting jobs to Spider and using collaboration features</td> </tr>
-      <tr> <td>16:15</td>  <td>More demos of additional features and Wrap up</td> </tr>
-      <tr> <td>17:00</td>  <td>END</td> </tr>
-    </table>
-  </div>
-</div>
 
 
