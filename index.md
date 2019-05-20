@@ -140,6 +140,8 @@ Display the contact email address set in the configuration file.
   {% include academy/schedule.html %}
 {% endif %}
 
+<hr/>
+
 <h2 id="sponsors">Sponsors</h2>
 <p>This workshop is sponsored and supported by ELIXIR-EXCELERATE. ELIXIR-EXCELERATE is funded by the European Commission within the Research Infrastructures programme of Horizon 2020, grant agreement number 676559.</p>
 <div>
