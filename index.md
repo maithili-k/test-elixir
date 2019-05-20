@@ -19,6 +19,15 @@ collaborative_notes:             # optional: URL for the workshop collaborative 
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
+
+{% if page.carpentry != site.carpentry %}
+<div class="alert alert-warning">
+You specified <code>carpentry: {{page.carpentry}}</code> in <code>index.md</code> and
+<code>carpentry: {{site.carpentry}}</code> in <code>_config.yml</code>. Make sure you edit both files. After editing <code>_config.yml</code>, you need to run <code>make serve</code> again to 
+see the changes take effect locally.
+</div>
+{% endif %}
+
 {% comment %}
 EVENTBRITE
 
